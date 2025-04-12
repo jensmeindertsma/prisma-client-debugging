@@ -9,3 +9,6 @@
 
 # Prisma
 /src/generated/
+
+# TypeScript
+*.tsbuildinfo

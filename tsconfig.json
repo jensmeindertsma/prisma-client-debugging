@@ -1,10 +1,14 @@
 {
-  "include": ["./src/**/*.ts"],
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.node.json" },
+    { "path": "./tsconfig.vite.json" }
+  ],
   "compilerOptions": {
-    "lib": ["esnext"],
-    "module": "nodenext",
-    "noEmit": true,
+    "checkJs": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
     "strict": true,
-    "target": "esnext"
+    "noEmit": true
   }
 }
