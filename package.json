@@ -7,7 +7,7 @@
     "generate": "prisma generate",
     "migrate": "prisma migrate dev",
     "start": "dotenv tsx ./src/index.js",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc --build"
   },
   "packageManager": "pnpm@10.8.0",
   "dependencies": {
