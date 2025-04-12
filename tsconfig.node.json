@@ -1,13 +1,9 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["vite.config.ts"],
+  "include": ["src/**/*"],
   "compilerOptions": {
     "composite": true,
-    "strict": true,
-    "types": ["node"],
-    "lib": ["ES2022"],
-    "target": "ES2022",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext"
+    "module": "nodenext",
+    "strict": true
   }
 }
