@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "clean": "rimraf ./src/generated/",
+    "clean": "rimraf ./src/generated/ ./*.tsbuildinfo",
     "generate": "prisma generate",
     "migrate": "prisma migrate dev",
     "start": "dotenv tsx ./src/index.js",
