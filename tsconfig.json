@@ -1,0 +1,10 @@
+{
+  "include": ["./src/**/*.ts"],
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "module": "nodenext",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext"
+  }
+}

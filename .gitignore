@@ -1,2 +1,11 @@
 # macOS
 .DS_Store
+
+# SQLite
+/data/
+
+# PNPM
+/node_modules/
+
+# Prisma
+/src/generated/
