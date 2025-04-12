@@ -4,6 +4,6 @@
   "compilerOptions": {
     "composite": true,
     "module": "nodenext",
-    "strict": true
+    "moduleResolution": "nodenext"
   }
 }

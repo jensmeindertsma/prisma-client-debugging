@@ -1,6 +1,6 @@
 {
   "files": [],
-  "references": [{ "path": "./tsconfig.node.json" }],
+  "references": [{ "path": "./tsconfig.foo.json" }],
   "compilerOptions": {
     "strict": true,
     "noEmit": true
