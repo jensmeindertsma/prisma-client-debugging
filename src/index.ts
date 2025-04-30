@@ -10,8 +10,15 @@ const database = new PrismaClient({ adapter });
 const userCount = await database.user.count();
 
 console.log(`Finished counting users: ${userCount} users present`);
+console.log(`Finished counting users: ${userCount} users present`);
 
 await database.user.create({
+  data: {
+    name: "John",
+    email: `john-${new Date().toISOString()}@foo.baz`,
+  },
+});
+
   data: {
     name: "John",
     email: `john-${new Date().toISOString()}@foo.baz`,
