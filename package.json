@@ -11,13 +11,13 @@
   },
   "packageManager": "pnpm@10.8.0",
   "dependencies": {
-    "@prisma/client": "6.7.0-dev.25",
+    "@prisma/client": "6.6.0",
     "dotenv-cli": "^8.0.0",
     "tsx": "^4.19.3"
   },
   "devDependencies": {
     "@types/node": "^22.14.1",
-    "prisma": "6.7.0-dev.25",
+    "prisma": "6.6.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.8.3",
     "vite": "^6.2.6"
