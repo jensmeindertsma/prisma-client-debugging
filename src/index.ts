@@ -19,6 +19,7 @@ await database.user.create({
   },
 });
 
+await database.user.create({
   data: {
     name: "John",
     email: `john-${new Date().toISOString()}@foo.baz`,
