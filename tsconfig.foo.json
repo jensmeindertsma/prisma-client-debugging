@@ -1,6 +1,10 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["src/**/*"],
+
+  // `"prisma/runtime.d.ts"` is temporary until
+  // https://github.com/prisma/prisma/issues/27027 is fixed
+  "include": ["src/**/*", "prisma/runtime.d.ts"],
+
   "compilerOptions": {
     "composite": true,
     "module": "nodenext",
